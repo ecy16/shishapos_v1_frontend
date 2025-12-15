@@ -16,7 +16,7 @@ export default function Dashboard() {
 
       <div className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-8 p-12">
         <button className="bg-white rounded-3xl shadow-2xl p-12 flex flex-col items-center gap-6 hover:shadow-xl active:bg-gray-100 transition">
-                     <HookahIcon size={80} className="w-12 h-12 text-orange-600" />
+                     <HookahIcon className="w-12 h-12 text-orange-600" />
                        {/* size={80} className="text-orange-600" /> */}
           <span className="text-3xl font-semibold">Products</span>
         </button>
