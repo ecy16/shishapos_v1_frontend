@@ -88,7 +88,7 @@ export default function LoginPage() {
                         <h3 className="text-lg lg:text-xl mb-2 lg:mb-4">Enter your PIN</h3>
 
                         {/* PIN display */}
-                        <PinDisplay length={4} pin={pin} className="mb-2" />
+                        <PinDisplay length={4} pin={pin}  />
 
                         {/* Error */}
                         {error && <p className="text-red-600 text-base mb-2">{error}</p>}
